@@ -26,7 +26,7 @@ window.addEventListener("keyup", function(event) { console.log("Soltaste una tec
 
 // evento carga total del documento
 
-window.addEventListener('load', function() { alert("La pagina ha sido cargada totalmente") });
+// window.addEventListener('load', function() { alert("La pagina ha sido cargada totalmente") });
 
 
 // eventos multimedia (video, audio)
