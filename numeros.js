@@ -35,6 +35,10 @@ console.log("Numero en forma exponencial: ", num2.toExponential(2));
 
 // ajustar el valor para manejar siempre la misma cantidad de decimales
 // si se le pasa el valor 0 como parametro redondeará el numero
-console.log("Reajustar numero: ", num2.toFixed(4)); // el valor serpa reajustado a cuatro decimales
+console.log("Reajustar numero: ", num2.toFixed(4)); // el valor sera reajustado a cuatro decimales
+
+// reajustar a cierta longitud pero incluyendo el valor entero
+// ejemplo tendra un valor entero y cuatro decimales
+console.log("Reajustar numero: ", num2.toPrecision(5));
 
 console.log("Valor numerico a string: ", num2.toString());
