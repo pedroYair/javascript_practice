@@ -4,6 +4,42 @@
 
 <head>
     <title>Eventos 1</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        h1 {
+            border-top: 2px solid #ccc;
+            text-transform: uppercase;
+            font-size: 18px;
+        }
+        
+        p {
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            box-shadow: 5px 5px 5px #ccc;
+            padding: 10px;
+        }
+        
+        button {
+            width: 100%;
+            height: 50px;
+            font-size: 16px;
+            border-radius: 5px;
+            outline: none;
+            color: white;
+            font-weight: bold;
+            background-color: steelblue;
+        }
+        
+        img {
+            border: 1px solid gray;
+            margin: 5px;
+            background-color: #ccc;
+        }
+        
+        .hide {
+            display: none;
+        }
+    </style>
 </head>
 
 <body>
@@ -18,11 +54,6 @@
             <div>
                 <button class="boton form-control">Pulsame</button>
             </div>
-
-            <div>
-                <button class="boton2 form-control">Pulsame 2</button>
-            </div>
-
             <div>
                 <video id="video1" src="http://v2v.cc/~j/theora_testsuite/320x240.ogg" controls>
                     Tu navegador no implementa el elemento <code>video</code>.
@@ -32,20 +63,35 @@
         </form>
 
         <div class="ingredientes">
-            <p>pasta</p>
+            <p class="clase1">pasta</p>
             <p>arroz</p>
             <p>aceite</p>
-            <p>frutas</p>
+            <p class="clase1">frutas</p>
+        </div>
+
+        <button id="boton">Traer datos</button>
+
+        <div id="mensajes" class="hide"></div>
+
+        <div id="banderas">
+
+        </div>
+
+        <div id="contenedor">
+
         </div>
 
     </div>
 
-    <script src="eventos1.js"></script>
+    <!--<script src="eventos1.js"></script>-->
     <!--<script src="temporizadores.js"></script>-->
     <!--<script src="alertas.js"></script>-->
     <!--<script src="numeros.js"></script>-->
     <!--<script src="cadenas.js"></script>-->
-    <script src="arreglos.js"></script>
+    <!--<script src="arreglos.js"></script>-->
+    <!--<script src="dom_bom.js"></script>-->
+    <script src="APIdatosExternos.js"></script>
+    <script src="poo.js"></script>
 
 
 </body>
